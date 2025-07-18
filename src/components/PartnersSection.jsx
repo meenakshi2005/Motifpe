@@ -1,7 +1,7 @@
 // components/PartnersSection.jsx
 import { useState } from "react";
 import LogoGrid from "./logoGride";
-import LogoGrides from "./logogrides";
+import {LogoGrides} from "./logogrides";
 import RequestDemoModal from "./RequestDemoModal";
 
 const PartnersSection = () => {
