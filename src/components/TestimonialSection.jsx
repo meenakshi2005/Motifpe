@@ -6,7 +6,7 @@ const testimonials = [
     title:
       'Assisted us in managing unforeseen spikes in online and sales-driven transactions',
     content:
-      "MotifPe  assisted us in managing an unforeseen surge in transaction volumes without any disruptions. They have also been supporting us with continuous monitoring, addressing service requests at all hours, and accommodating any ad hoc requirements.",
+      "PayTring assisted us in managing an unforeseen surge in transaction volumes without any disruptions. They have also been supporting us with continuous monitoring, addressing service requests at all hours, and accommodating any ad hoc requirements.",
     name: 'Deepak Prasad',
     position: 'Cluster Manager , Bajaj Finserv',
   },
@@ -14,7 +14,7 @@ const testimonials = [
     title:
       'Maximized efficiency and customer satisfaction through streamlined payment management',
     content:
-      "MotifPe  has truly transformed our payment management. With their intuitive platform and comprehensive features, managing multiple payment methods and providers has become seamless. Thanks to MotifPe , we've enhanced efficiency and customer satisfaction.",
+      "PayTring has truly transformed our payment management. With their intuitive platform and comprehensive features, managing multiple payment methods and providers has become seamless. Thanks to PayTring, we've enhanced efficiency and customer satisfaction.",
     name: 'Ruchi Aggarwal',
     position: 'Founder, SimpliFin.ai',
   },
@@ -32,7 +32,6 @@ export default function TestimonialSection() {
   };
 
   return (
-    <div>
     <section className="bg-[#f5f8fb] py-16 px-4 text-center">
       <h2 className="text-2xl md:text-3xl font-extrabold text-[#00C48C] mb-12">
         An Unforgettable Experience <br /> That People Enjoy Recalling
@@ -86,6 +85,5 @@ export default function TestimonialSection() {
         ))}
       </div>
     </section>
-    </div>
   );
 }
